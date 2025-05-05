@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Inconsolata:wght@200..900&family=Krona+One&family=Luxurious+Roman&family=Montaga&display=swap');
+
+
+
+body{
+    /*height: 100vh;*/
+    background:#169d99 ;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    :root{
+        --cor-primaria: green;
+        --cor-secundaria: black;
+        --cor-terciaria:#f5ebe0 ;
+       
+    }
+    .apresentacao{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 8% 5% 0% 10%;
+        gap: 83px;margin: 0%;
+    }
+    .apresentacao-titulo{
+        font-size: 3.00rem;
+        font-family: "Luxurious Roman", sans-serif;
+        text-align: center;
+        color: var(--cor-primaria);
+        
+        }
+        .subtitulo{
+            font-size: 1.50rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+    }
+    .img-principal{
+        width: 200px;
+    }
+    .audio{
+        text-align: center;
+    }
+    .texto{
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
